@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link rel="stylesheet" href="./home.css" />
+  </head>
+  <body class="bg-primary">
+    <nav>
+      <ul class="side-bar">
+        <li class="close-burger-container">
+          <a href="#" class="nav-links close-burger-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="16"
+              viewBox="0 -960 960 960"
+              width="16"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="./webpages/index.html" class="nav-links">
+            <i class="material-symbols-outlined">Home</i>
+            <span>Beginning</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="./webpages/aboutme.html" class="nav-links">
+            <i class="material-symbols-outlined">Face</i>
+
+            <span>About me</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="./webpages/projects.html" class="nav-links">
+            <i class="material-symbols-outlined">Photo</i>
+
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="./webpages/contact.html" class="nav-links">
+            <i class="material-symbols-outlined">Mail</i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="primary-navigation">
+        <li class="hideOnMobile">
+          <a href="./webpages/index.html" class="nav-links">
+            <i class="material-symbols-outlined">Home</i>
+            <span>Beginning</span>
+          </a>
+        </li>
+
+        <li class="hideOnMobile">
+          <a href="./webpages/aboutme.html" class="nav-links">
+            <i class="material-symbols-outlined">Face</i>
+
+            <span>About me</span>
+          </a>
+        </li>
+
+        <li class="hideOnMobile">
+          <a href="./webpages/projects.html" class="nav-links">
+            <i class="material-symbols-outlined">Photo</i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="./webpages/contact.html" class="nav-links">
+            <i class="material-symbols-outlined">Mail</i>
+            <span>Contact</span>
+          </a>
+        </li>
+        <li class="burger-container">
+          <a href="#" class="burger-icon nav-links"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="primary-heading-wrapper">
+      <h1 class="fs-primary-heading fw-900">Welcome</h1>
+    </div>
+
+    <section class="intro">
+      <div class="wrapper">
+        <h2 class="fw-700">Welcome to My Portfolio</h2>
+        <div class="intro-description">
+          <p>
+            Hello, I'm Harold Filomeno, a passionate and experienced software
+            engineer dedicated to crafting innovative digital solutions. My
+            journey in the tech industry has been driven by a relentless pursuit
+            of excellence and a commitment to delivering robust, scalable, and
+            user-centric software solutions. Whether it's building intuitive
+            user interfaces, optimizing backend systems for performance, or
+            architecting complex applications, I thrive on tackling challenges
+            and turning ideas into reality.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-projects">
+      <div class="projects-wrapper">
+        <h2 class="fw-700 featured-projects-header">Featured Projects</h2>
+        <div class="projects-grid">
+          <div class="projects-grid-items">
+            <span>Windows Forms</span>
+            <h3 class="fw-700">Finding Niglets</h3>
+            <p>A project made for the C# .NET framework</p>
+          </div>
+          <div class="projects-grid-items grid-image">
+            <div class="product-image-container">
+              <img
+                src="/image/findingniglets.png"
+                alt="Picture of the project"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="projects-grid">
+          <div class="projects-grid-items grid-image">
+            <div class="product-image-container pos-image-container">
+              <img src="/image/pos.png" alt="Picture of the project" />
+            </div>
+          </div>
+          <div class="projects-grid-items">
+            <span>Console Application</span>
+            <h3 class="fw-700">Point of Sale System</h3>
+            <p>A project made for the C# .NET framework</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <section class="footer-grid">
+        <a href="./webpages/aboutme.html" class="flex">
+          <h4 class="fs-footer-heading fw-900">FILOMENO</h4>
+        </a>
+        <div>
+          <div class="footer-container-links-flex">
+            <a href="./webpages/index.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Home</i>
+              <span>Beginning</span>
+            </a>
+            <a href="./webpages/aboutme.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Face</i>
+              <span>About me</span>
+            </a>
+            <a href="./webpages/projects.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Photo</i>
+              <span>Projects</span>
+            </a>
+            <a href="./webpages/contact.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Mail</i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <a href="mailto:act.hvfilomeno@gmail.com" class="flex"
+          >act.hvfilomeno@gmail.com</a
+        >
+        <div class="flex">
+          <h4 class="fw-700">
+            "The best time to start learning was about 10 years ago, but the
+            second best time is right now."
+          </h4>
+        </div>
+      </section>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>

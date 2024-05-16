@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Profile</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body class="bg-primary">
+    <nav>
+      <ul class="side-bar">
+        <li class="close-burger-container">
+          <a href="#" class="nav-links close-burger-icon"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="16"
+              viewBox="0 -960 960 960"
+              width="16"
+            >
+              <path
+                d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"
+              />
+            </svg>
+          </a>
+        </li>
+        <li>
+          <a href="./webpages/index.html" class="nav-links">
+            <i class="material-symbols-outlined">Home</i>
+            <span>Beginning</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="./webpages/aboutme.html" class="nav-links">
+            <i class="material-symbols-outlined">Face</i>
+
+            <span>About me</span>
+          </a>
+        </li>
+
+        <li>
+          <a href="./webpages/projects.html" class="nav-links">
+            <i class="material-symbols-outlined">Photo</i>
+
+            <span>Projects</span>
+          </a>
+        </li>
+        <li>
+          <a href="./webpages/contact.html" class="nav-links">
+            <i class="material-symbols-outlined">Mail</i>
+            <span>Contact</span>
+          </a>
+        </li>
+      </ul>
+
+      <ul class="primary-navigation">
+        <li class="hideOnMobile">
+          <a href="./webpages/index.html" class="nav-links">
+            <i class="material-symbols-outlined">Home</i>
+            <span>Beginning</span>
+          </a>
+        </li>
+
+        <li class="hideOnMobile">
+          <a href="./webpages/aboutme.html" class="nav-links">
+            <i class="material-symbols-outlined">Face</i>
+
+            <span>About me</span>
+          </a>
+        </li>
+
+        <li class="hideOnMobile">
+          <a href="./webpages/projects.html" class="nav-links">
+            <i class="material-symbols-outlined">Photo</i>
+            <span>Projects</span>
+          </a>
+        </li>
+        <li class="hideOnMobile">
+          <a href="./webpages/contact.html" class="nav-links">
+            <i class="material-symbols-outlined">Mail</i>
+            <span>Contact</span>
+          </a>
+        </li>
+        <li class="burger-container">
+          <a href="#" class="burger-icon nav-links"
+            ><svg
+              xmlns="http://www.w3.org/2000/svg"
+              height="24"
+              viewBox="0 -960 960 960"
+              width="24"
+            >
+              <path
+                d="M120-240v-80h720v80H120Zm0-200v-80h720v80H120Zm0-200v-80h720v80H120Z"
+              /></svg
+          ></a>
+        </li>
+      </ul>
+    </nav>
+    <div class="primary-heading-wrapper">
+      <h1 class="fs-primary-heading fw-900">About Me</h1>
+    </div>
+
+    <section class="about-me">
+      <div class="wrapper">
+        <div class="even-columns">
+          <div class="image-container">
+            <img
+              class="profile-picture"
+              src="/image/profileimage.png"
+              alt="Image of the author"
+            />
+            <h2>
+              <span class="fs-profile-card-occupation fw-300">Student</span>
+              <span class="fs-profile-card-fullname fw-700"
+                >Harold Vincent L. Filomeno</span
+              >
+            </h2>
+          </div>
+          <div class="about-me-description">
+            <div class="about-me-description-container">
+              <p>
+                Hello, my name is Harold Filomeno, an aspiring full-stack
+                developer with a passion for building user-friendly and
+                innovative web applications. Eager to learn and contribute to a
+                collaborative team environment.
+              </p>
+              <p>
+                My journey towards becoming a full-stack developer is fueled by
+                a genuine enthusiasm for crafting user-centric web experiences.
+                While currently honing my skills through personal projects, I am
+                eager to contribute my dedication and collaborative spirit to
+                your team.
+              </p>
+              <div>
+                <a
+                  href="https://www.facebook.com/HaroldFil"
+                  class="button | text-primary-400 fw-700"
+                  target="_blank"
+                  >Facebook Page</a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="information padding-block-400 container">
+      <div class="wrapper">
+        <h3 class="fw-300 fs-secondary-heading text-uppercase">
+          Personal Information
+        </h3>
+        <div class="information-name flex">
+          <div class="flex space-between">
+            <span class="fw-700">Name</span>
+            <span>Harold Vincent L. Filomeno</span>
+          </div>
+        </div>
+        <div class="information-age flex">
+          <div class="flex space-between">
+            <span class="fw-700">Age</span>
+            <span>20 years old</span>
+          </div>
+        </div>
+        <div class="information-location flex">
+          <div class="flex space-between">
+            <span class="fw-700">Location</span>
+            <span>Laray San Roque Talisay City</span>
+          </div>
+        </div>
+        <div class="information-languages flex">
+          <div class="flex space-between">
+            <span class="fw-700">Languages</span>
+            <span>Cebuano/Bisaya, English, Tagalog/Filipino</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="education padding-block-400 container">
+      <div class="wrapper">
+        <h3 class="fw-300 fs-secondary-heading text-uppercase">Studies</h3>
+        <div class="studies-name">
+          <div class="flex space-between">
+            <div class="flex-column">
+              <span class="fw-700">Computer Science,</span>
+              <span>Asian College of Technology</span>
+            </div>
+            <div class="align-flex-center">
+              <span>2022 - Present</span>
+            </div>
+          </div>
+        </div>
+        <div class="studies-name">
+          <div class="flex space-between">
+            <div class="flex-column">
+              <span class="fw-700">Senior Highschool,</span>
+              <span>CBD College</span>
+            </div>
+            <div class="align-flex-center">
+              <span>2020 - 2022</span>
+            </div>
+          </div>
+        </div>
+        <div class="studies-name">
+          <div class="flex space-between">
+            <div class="flex-column">
+              <span class="fw-700">Highschool,</span>
+              <span>CBD College</span>
+            </div>
+            <div class="align-flex-center">
+              <span>2016 - 2020</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills padding-block-400 container">
+      <div class="wrapper">
+        <h3 class="fw-300 fs-secondary-heading text-uppercase">Skills</h3>
+        <div class="flex flex-column">
+          <div class="flex space-between">
+            <span class="fw-700">HTML</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar html-bar"></div>
+            </div>
+          </div>
+          <div class="flex space-between">
+            <span class="fw-700">CSS</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar css-bar"></div>
+            </div>
+          </div>
+          <div class="flex space-between">
+            <span class="fw-700">C#</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar csharp-bar"></div>
+            </div>
+          </div>
+          <div class="flex space-between">
+            <span class="fw-700">JavaScript</span>
+            <div class="progress-bar-container">
+              <div class="progress-bar javascript-bar"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <section class="footer-grid">
+        <a href="./webpages/aboutme.html" class="flex">
+          <h4 class="fs-footer-heading fw-900">FILOMENO</h4>
+        </a>
+        <div>
+          <div class="footer-container-links-flex">
+            <a href="./webpages/index.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Home</i>
+              <span>Beginning</span>
+            </a>
+            <a href="./webpages/aboutme.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Face</i>
+              <span>About me</span>
+            </a>
+            <a href="./webpages/projects.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Photo</i>
+              <span>Projects</span>
+            </a>
+            <a href="./webpages/contact.html" class="footer-links-flex">
+              <i class="material-symbols-outlined">Mail</i>
+              <span>Contact</span>
+            </a>
+          </div>
+        </div>
+        <a href="mailto:act.hvfilomeno@gmail.com" class="flex"
+          >act.hvfilomeno@gmail.com</a
+        >
+        <div class="flex">
+          <h4 class="fw-700">
+            "The best time to start learning was about 10 years ago, but the
+            second best time is right now."
+          </h4>
+        </div>
+      </section>
+    </footer>
+    <script src="/app.js"></script>
+  </body>
+</html>
